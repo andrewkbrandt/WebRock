@@ -4,25 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="Base_Styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
 
 <body>
     <!-- templates for top navigation bar and footer -->
 
+    <!-- top logo -->
+    <div class="row">
+      <!-- add the logo here -->
+
+    </div>
+
     <!-- top nav bar -->
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+    <!-- this is for 3 main items to select that could then be a dropdown menu. It would be possible to expand this out to more later -->
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+        </div>
       </div>
+      <div class="col-sm-4 text-center">.col-sm-4</div>
+      <div class="col-sm-4 text-center">.col-sm-4</div>
+    </div>
 
 
       <!-- footer -->
 
-      <div class="footer">
-        <p>Footer</p>
+      <div class="row">
+        <!-- want some basic links down here, maybe an address and some contact info -->
+
       </div>
 
 
