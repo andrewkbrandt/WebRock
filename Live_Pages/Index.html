@@ -1,13 +1,25 @@
+<!-- Template for main pages with navigation bar and footer already constructed. -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Rock Lutheran Church - A mission church in Seward, Nebraska</title>
-    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/custom/custom.css" rel="stylesheet">
 
 </head>
 <body>
+    <!-- Standard navigation bar -->
+
+    <!--
+      TODO:
+      Insert icon instead of "The Rock"
+      Add social media icon links
+      Stylize(?)
+    -->
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">The Rock</a>
@@ -59,11 +71,26 @@
         </div>
       </nav>
 
+      <!-- Place unique page content here -->
+
       Filler text<br><br>More filler text
 
-      <footer class="footer mt-auto py-3 bg-body-tertiary fixed-bottom">
-        <div class="container">
-          <span class="text-body-secondary">Hello World</span>
+      <!-- Standard footer -->
+
+      <!--
+        TODO:
+        Add behavior so that clicking on email prompts to open email application
+        Add similar for phone number(?)
+        Add social media icon links
+      -->
+      
+      <footer class="footer mt-auto py-3 bg-light fixed-bottom">
+        <div class="container text-center">
+          The Rock Lutheran <br>
+          237 S. 3RD STREET, SEWARD, NE 68434 <br>
+          402.643.6624 <br>
+          info@therockseward.org
+          <!-- <span class="text-body-secondary">Hello World</span> -->
         </div>
       </footer>
     <script src="/js/bootstrap/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
