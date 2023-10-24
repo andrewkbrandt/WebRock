@@ -5,19 +5,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Make sure to edit each page's title to reflect that page. -->
     <title>The Rock Lutheran Church - A mission church in Seward, Nebraska</title>
-    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/custom/custom.css" rel="stylesheet">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom/custom.css" rel="stylesheet">
+
+    <!-- This custom styling is to allow the template to always fill the entire viewport with no whitespace below
+    the footer container, even when there is no other content. The <main> section where all the non-nav non-footer
+    content resides is of class container to accomplish this. This could also be placed in the custom.css file. -->
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .container {
+        flex: 1;
+        margin: 0;
+      }
+    </style>
 
 
 </head>
-<body class="d-flex flex-column min-height: 100vh;">
+<body>
     <!-- Standard navigation bar -->
     <!--
       TODO:
       Insert icon instead of "The Rock"
       Add social media icon links
       Add current page indication(?)
+      Make Worship and News buttons have same font shade as the dropdown buttons
       Stylize(?)
     -->
     <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
@@ -28,16 +46,16 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ol class="navbar-nav ms-auto">
-              <a class="nav-link" href="#">Worship</a>
-              <a class="nav-link" href="#">News</a>
+              <a class="nav-link" href="worship.html">Worship</a>
+              <a class="nav-link" href="news.html">News</a>
               <li class="nav-item dropdown">
                 <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                   About Us
                 </button>
                 <ol class="dropdown-menu dropdown-menu-light">
-                  <li><a class="dropdown-item" href="#">Beliefs & History</a></li>
-                  <li><a class="dropdown-item" href="#">Mission & Vision</a></li>
-                  <li><a class="dropdown-item" href="#">Pastor & Leaders</a></li>
+                  <li><a class="dropdown-item" href="about-us/beliefs-and-history.html">Beliefs & History</a></li>
+                  <li><a class="dropdown-item" href="about-us/mission-and-vision.html">Mission & Vision</a></li>
+                  <li><a class="dropdown-item" href="about-us/pastor-and-leaders.html">Pastor & Leaders</a></li>
                 </ol>
               </li>
               <li class="nav-item dropdown">
@@ -45,13 +63,13 @@
                   Connect
                 </button>
                 <ol class="dropdown-menu dropdown-menu-light">
-                  <li><a class="dropdown-item" href="#">Children</a></li>
-                  <li><a class="dropdown-item" href="#">Jr. High</a></li>
-                  <li><a class="dropdown-item" href="#">High School</a></li>
-                  <li><a class="dropdown-item" href="#">Adults</a></li>
-                  <li><a class="dropdown-item" href="#">Comfort Dog</a></li>
-                  <li><a class="dropdown-item" href="#">Beyond Borders</a></li>
-                  <li><a class="dropdown-item" href="#">Serve</a></li>
+                  <li><a class="dropdown-item" href="connect/children.html">Children</a></li>
+                  <li><a class="dropdown-item" href="connect/middle-school.html">Jr. High</a></li>
+                  <li><a class="dropdown-item" href="connect/high-school.html">High School</a></li>
+                  <li><a class="dropdown-item" href="connect/adults.html">Adults</a></li>
+                  <li><a class="dropdown-item" href="connect/comfort-dog.html">Comfort Dog</a></li>
+                  <li><a class="dropdown-item" href="connect/beyond-borders.html">Beyond Borders</a></li>
+                  <li><a class="dropdown-item" href="connect/serve.html">Serve</a></li>
                 </ol>
               </li>
               <li class="nav-item dropdown">
@@ -60,9 +78,9 @@
                 </button>
                 <!-- This dropdown opens to the left since it is on the far right end of the nav bar. Change if/when social media links added to right? -->
                 <ol class="dropdown-menu dropdown-menu-light dropdown-menu-end">
-                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                  <li><a class="dropdown-item" href="#">Giving</a></li>
-                  <li><a class="dropdown-item" href="#">Useful Links</a></li>
+                  <li><a class="dropdown-item" href="resources/contact.html">Contact Us</a></li>
+                  <li><a class="dropdown-item" href="resources/giving.html">Giving</a></li>
+                  <li><a class="dropdown-item" href="resources/links">Useful Links</a></li>
                   <li><a class="dropdown-item" href="#">Store</a></li>
                 </ol>
               </li>
@@ -72,14 +90,10 @@
       </nav>
 
       <!-- Place unique page content here -->
-      <main style="min-height: 85vh;">
+      <!-- <main style="min-height: 85vh;"> -->
+      <main class="container">
       Filler text<br><br>
       <br><br>
-<!--       
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      
-      More filler text
-      <br><br><br><br><br><br><br> -->
 
       </main>
 
@@ -96,6 +110,6 @@
         402.643.6624 <br>
         info@therockseward.org
       </div>
-    <script src="/js/bootstrap/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 </html>
