@@ -1,4 +1,4 @@
-<!-- Template for main pages with navigation bar and footer already constructed. -->
+<!-- Template for main pages with navigation bar and footer already constructed -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,23 +9,7 @@
     <title>The Rock Lutheran Church - A mission church in Seward, Nebraska</title>
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom/custom.css" rel="stylesheet">
-
-    <!-- This custom styling is to allow the template to always fill the entire viewport with no whitespace below
-    the footer container, even when there is no other content. The <main> section where all the non-nav non-footer
-    content resides is of class container to accomplish this. This could also be placed in the custom.css file. -->
-    <style>
-      body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .container {
-        flex: 1;
-        margin: 0;
-      }
-    </style>
-
+    <!-- Custom styling in the above file -->
 
 </head>
 <body>
@@ -94,21 +78,23 @@
       <main class="container">
       Filler text<br><br>
       <br><br>
-
+      
       </main>
 
       <!-- Standard footer -->
       <!--
         TODO:
-        Add behavior so that clicking on email prompts to open email application
+        Tweak email behavior?
         Add similar for phone number(?)
         Add social media icon links
       -->
       <div class="container-fluid static-bottom text-center py-4 bg-light">
         The Rock Lutheran <br>
         237 S. 3RD STREET, SEWARD, NE 68434 <br>
-        402.643.6624 <br>
-        info@therockseward.org
+        <!-- Figure out how to make the address work, if desired -->
+        <!-- <a href="address:237 S. 3RD STREET, SEWARD, NE 68434">237 S. 3RD STREET, SEWARD, NE 68434 </a><br> -->
+        <a href="tel:=4026436624">402.643.6624</a> <br>
+        <a href="mailto:info@therockseward.org">info@therockseward.org</a>
       </div>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 </body>

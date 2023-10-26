@@ -1,5 +1,39 @@
-/* .navbar-nav .nav-item .active {
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 3px;
-  } */
+/* Changes to default parameters of objects */
+
+
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+/* Cause body to fill up viewport as a minimum if there isn't a lot of content on the page */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* Flex allows for the viewport filling to work */
+.container {
+    flex: 1;
+    margin: 0;
+}
+
+.nav-link {
+    /* Override the nav-link buttons being greyer than dropdown buttons*/
+    color: black;
+    /* Increase visibility of buttons */
+    font-size: 20px;
+}
+.btn {
+    /* Increase visibility of buttons */
+    font-size: 20px;
+}
+
+/* .navbar-nav .nav-item.active .nav-link {
+    background-color: #007BFF;
+    color: #FFFFFF;
+} */
+
+/* .navbar {
+    min-height: 75px;
+} */
