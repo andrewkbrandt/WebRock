@@ -1,10 +1,11 @@
 /* Changes to default parameters of objects */
 
-
-
-.navbar-brand {
-    font-size: 25px;
-}
+:root {
+    /* Custom color variables for use in icons */
+    --facebook-blue: #1877F2;
+    --youtube-red: #FF0000;
+    --vimeo-blue: #1AB7EA;
+  }
 
 /* Cause body to fill up viewport as a minimum if there isn't a lot of content on the page */
 body {
@@ -18,15 +19,34 @@ body {
     margin: 0;
 }
 
+/* Allows for darken transition when cursor is hovering over icon */
+.custom-icon-darken {
+    transition: filter 0.1s;
+}
+.custom-icon-darken:hover {
+    filter: brightness(0.8);
+}
+
+.btn {
+    /* Increase visibility of buttons */
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
 .nav-link {
     /* Override the nav-link buttons being greyer than dropdown buttons*/
     color: black;
     /* Increase visibility of buttons */
     font-size: 20px;
+    /* Round off corners of background rectangle */
+    border-radius: 8px;
+    /* Allow for smooth color transition */
+    transition: background-color 0.3s, color 0.3s;
 }
-.btn {
-    /* Increase visibility of buttons */
-    font-size: 20px;
+.navbar-button-hover:hover {
+    background-color: lightgray;
 }
 
 /* .navbar-nav .nav-item.active .nav-link {

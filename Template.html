@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Make sure to edit each page's title to reflect that page. -->
     <title>The Rock Lutheran Church - A mission church in Seward, Nebraska</title>
@@ -11,27 +11,32 @@
     <link href="css/custom/custom.css" rel="stylesheet">
     <!-- Custom styling in the above file -->
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
 </head>
 <body>
     <!-- Standard navigation bar -->
     <!--
       TODO:
-      Insert icon instead of "The Rock"
-      Add social media icon links
+      Fix The Rock icon- saved PNG from existing site but opacity is way off.
+      Figure out change social media icon color on hover
       Add current page indication(?)
-      Make Worship and News buttons have same font shade as the dropdown buttons
       Stylize(?)
     -->
     <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">The Rock</a>
+          <a class="navbar-brand" href="index.html">The Rock
+            <!-- <img src="assets/custom-icons/ROCK_white-241x100.png" alt="The Rock"> -->
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ol class="navbar-nav ms-auto">
-              <a class="nav-link" href="worship.html">Worship</a>
-              <a class="nav-link" href="news.html">News</a>
+              <!-- NON-DROPDOWN BUTTONS -->
+              <a class="nav-link navbar-button-hover" href="worship.html">Worship</a>
+              <a class="nav-link navbar-button-hover" href="news.html">News</a>
+              <!-- DROPDOWN BUTTONS -->
               <li class="nav-item dropdown">
                 <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                   About Us
@@ -68,6 +73,17 @@
                   <li><a class="dropdown-item" href="#">Store</a></li>
                 </ol>
               </li>
+              <!-- LINK ICONS -->
+              <a href="https://www.facebook.com/therockseward/">
+                <i class="bi-facebook custom-icon-darken" style="font-size: 2rem; color: var(--facebook-blue); margin: 10px"></i>
+              </a>
+              <a href="https://www.youtube.com/c/TheRockSewardNebraska">
+                <i class="bi-youtube custom-icon-darken" style="font-size: 2rem; color: var(--youtube-red); margin: 10px"></i>
+              </a>
+              <a href="https://vimeo.com/therockseward">
+                <i class="bi-vimeo custom-icon-darken" style="font-size: 2rem; color: var(--vimeo-blue); margin: 10px"></i>
+              </a>
+
             </ol>
           </div>
         </div>
@@ -84,9 +100,8 @@
       <!-- Standard footer -->
       <!--
         TODO:
-        Tweak email behavior?
-        Add similar for phone number(?)
-        Add social media icon links
+        Same as in nav bar, figure out change icon color on hover
+        Fix the odd lines between the icons
       -->
       <div class="container-fluid static-bottom text-center py-4 bg-light">
         The Rock Lutheran <br>
@@ -94,7 +109,16 @@
         <!-- Figure out how to make the address work, if desired -->
         <!-- <a href="address:237 S. 3RD STREET, SEWARD, NE 68434">237 S. 3RD STREET, SEWARD, NE 68434 </a><br> -->
         <a href="tel:=4026436624">402.643.6624</a> <br>
-        <a href="mailto:info@therockseward.org">info@therockseward.org</a>
+        <a href="mailto:info@therockseward.org">info@therockseward.org</a> <br>
+        <a href="https://www.facebook.com/therockseward/">
+          <i class="bi-facebook custom-icon-darken" style="font-size: 2rem; color: var(--facebook-blue); margin: 5px"></i>
+        </a>
+        <a href="https://www.youtube.com/c/TheRockSewardNebraska">
+          <i class="bi-youtube custom-icon-darken" style="font-size: 2rem; color: var(--youtube-red); margin: 5px"></i>
+        </a>
+        <a href="https://vimeo.com/therockseward">
+          <i class="bi-vimeo custom-icon-darken" style="font-size: 2rem; color: var(--vimeo-blue); margin: 5px"></i>
+        </a>
       </div>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
