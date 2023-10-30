@@ -47,6 +47,7 @@ body {
 .navbar-brand {
     font-size: 25px;
 }
+
 .nav-link {
     /* Override the nav-link buttons being greyer than dropdown buttons*/
     color: black;
@@ -60,12 +61,3 @@ body {
 .navbar-button-hover:hover {
     background-color: lightgray;
 }
-
-/* .navbar-nav .nav-item.active .nav-link {
-    background-color: #007BFF;
-    color: #FFFFFF;
-} */
-
-/* .navbar {
-    min-height: 75px;
-} */
