@@ -14,7 +14,7 @@ body {
     flex-direction: column;
 }
 /* Flex allows for the viewport filling to work */
-.container {
+.custom-container {
     flex: 1;
     margin: 0;
 }
