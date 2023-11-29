@@ -1,3 +1,4 @@
 Insert Google Maps into <contact.html>, reusing existing API key.
 Add image to worship page.
 Add image to beliefs-and-history page.
+Add image to pastor-and-leaders page.
