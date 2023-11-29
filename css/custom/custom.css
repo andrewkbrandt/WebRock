@@ -8,7 +8,7 @@
   }
 
 /* Cause body to fill up viewport as a minimum if there isn't a lot of content on the page */
-.body {
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
