@@ -82,27 +82,90 @@
 
       <!-- Place unique page content here -->
       <main class="custom-container">
-        <h1 class="custom-page-header">Faith Ink</h1>
-        <br>
-        <p class="custom-body-padding">
-            <strong><span class="fs-2">Faith Inkubators -</span></strong> <a href="/connect/faith-inkubators-registration.html" class="fs-2">Register Here!</a> <br> <br>
-            <strong>What: </strong>For students entering 5th, 6th, 7th, and 8th grades. Confirming the faith given at your baptism! <br> <br>
-            <strong>When: </strong>Wednesday Nights, 6:30 p.m.-7:30 p.m. during the school year <br> <br>
-            <strong>Where: </strong>The Rock, second floor
-        </p>
-        <p class="custom-body-padding">
-            What should I bring? We will be using Faith Alive Student Bible ESV, and Luther&rsquo;s Small Catechism (spiralbound, 2017 edition).
-            If you don&rsquo;t have one, come anyway and we will provide.
-            <br> <br>
-            Confirmation should be something fun where our middle school age students are allowed to learn and grow in their faith.
-            That is why we have chosen to follow Faith Inkubators Head to Heart Ministry which is a program that allows parents to be
-            involved in building their youths relationship with Christ and involves small group.
-            <br> <br>
-            Our youth will learn through skits, art, music, game shows and engaged brain based learning. The Bible is our textbook for learning.
-            <br> <br>
-            Our ministry focuses on three core elements that include learning, fellowship and service to others. Our ministry is open to all youth in the community.
-            We want to reach out to everyone based on our Lutheran beliefs.
-        </p>
+        <h1 class="custom-page-header">FaithInk Registration</h1> <br>
+        <form class="custom-form-container">
+          <div class="form-group">
+            <label for="name" style="margin-bottom: 10px">Child's first & last name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter their name" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="birthdate">Date of birth (mm/dd/yyyy)</label>
+            <input type="text" class="form-control" id="birthdate" placeholder="Enter their birthdate" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="agegrade">Age/grade</label>
+            <input type="text" class="form-control" id="agegrade" placeholder="Enter their age/grade" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="parents">Parent/guardian names</label>
+            <input type="text" class="form-control" id="parents" placeholder="Enter parent/guardian names" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="street">Street address</label>
+            <input type="text" class="form-control" id="street" placeholder="Enter their street address" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="Enter their city" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="homephone">Home phone</label>
+            <input type="text" class="form-control" id="homephone" placeholder="Enter a home phone number" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="altphone">Age/grade</label>
+            <input type="text" class="form-control" id="altphone" placeholder="Enter an alternate phone number" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="email">Your email</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="emergencyname">Emergency contact name</label>
+            <input type="text" class="form-control" id="emergencyname" placeholder="Enter emergency contact name" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="emergencyphone">Emergency contact phone number</label>
+            <input type="text" class="form-control" id="emergencyphone" placeholder="Enter emergency contact phone number" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="healthconcerns">Known food allergies or other medical concerns</label>
+            <textarea class="form-control" id="healthconcerns" rows="5" placeholder="Enter any food allergies or health concerns"></textarea>
+          </div>
+          <br>Do you have a church home?
+          <div class="form-check">
+            <label class="form-check-label" for="yes"></label>
+            <input class="form-check-input" type="radio" name="homeyesno" id="yes" required>
+            yes
+          </div>
+          <div class="form-check">
+            <label class="form-check-label" for="no"></label>
+            <input class="form-check-input" type="radio" name="homeyesno" id="no" required>
+            no
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="churchname">If yes, name</label>
+            <input type="text" class="form-control" id="churchname" placeholder="Enter church name">
+          </div>
+          <br>Is your child baptized?
+          <div class="form-check">
+            <label class="form-check-label" for="yes"></label>
+            <input class="form-check-input" type="radio" name="baptizedyesno" id="yes" required>
+            yes
+          </div>
+          <div class="form-check">
+            <label class="form-check-label" for="no"></label>
+            <input class="form-check-input" type="radio" name="baptizedyesno" id="no" required>
+            no
+          </div>
+          <div class="form-check custom-form-margin">
+            <label class="form-check-label" for="medicalpermission"></label>
+            <input class="form-check-input" type="checkbox" id="medicalpermission" name="medicalpermission" required>
+            In case of emergency, I give my permission for any necessary medical treatment to be given to my child.
+            I will not hold The Rock or any leader/staff persons responsible for any injury that may occur.
+          </div>
+          <button type="submit" class="btn btn-outline-primary" style="margin-top: 20px">Submit</button>
+        </form>
 
 
       <!-- Have button fade in and out -->
