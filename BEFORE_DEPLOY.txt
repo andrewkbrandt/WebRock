@@ -1,4 +1,5 @@
 Insert Google Maps into <contact.html>, reusing existing API key.
+Figure out where forms are being submitted to and add that to each form tag in each form page.
 
 Add image to worship page.
 Add image to beliefs-and-history page.

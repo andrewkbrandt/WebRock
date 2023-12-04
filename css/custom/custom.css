@@ -27,6 +27,11 @@ body {
     padding-right: 20px;
 }
 
+.custom-form-margin {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
 /* Flex allows for the viewport filling to work */
 .custom-container {
     flex: 1;

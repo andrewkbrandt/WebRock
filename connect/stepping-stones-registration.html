@@ -86,78 +86,92 @@
         <form class="custom-form-container">
           <div class="form-group">
             <label for="name" style="margin-bottom: 10px">Child's first & last name</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter their name">
+            <input type="text" class="form-control" id="name" placeholder="Enter their name" required>
           </div>
           <div class="form-group">
-            <label for="birthdate" style="margin-top: 30px; margin-bottom: 10px">Date of birth (mm/dd/yyyy)</label>
-            <input type="text" class="form-control" id="birthdate" placeholder="Enter their birthdate">
+            <label class="custom-form-margin" for="birthdate">Date of birth (mm/dd/yyyy)</label>
+            <input type="text" class="form-control" id="birthdate" placeholder="Enter their birthdate" required>
           </div>
           <div class="form-group">
-            <label for="agegrade" style="margin-top: 30px; margin-bottom: 10px">Age/grade</label>
-            <input type="text" class="form-control" id="agegrade" placeholder="Enter their age/grade">
+            <label class="custom-form-margin" for="agegrade">Age/grade</label>
+            <input type="text" class="form-control" id="agegrade" placeholder="Enter their age/grade" required>
           </div>
           <div class="form-group">
-            <label for="parents" style="margin-top: 30px; margin-bottom: 10px">Parent/guardian names</label>
-            <input type="text" class="form-control" id="parents" placeholder="Enter parent/guardian names">
+            <label class="custom-form-margin" for="parents">Parent/guardian names</label>
+            <input type="text" class="form-control" id="parents" placeholder="Enter parent/guardian names" required>
           </div>
           <div class="form-group">
-            <label for="street" style="margin-top: 30px; margin-bottom: 10px">Street address</label>
-            <input type="text" class="form-control" id="street" placeholder="Enter their street address">
+            <label class="custom-form-margin" for="street">Street address</label>
+            <input type="text" class="form-control" id="street" placeholder="Enter their street address" required>
           </div>
           <div class="form-group">
-            <label for="city" style="margin-top: 30px; margin-bottom: 10px">City</label>
-            <input type="text" class="form-control" id="city" placeholder="Enter their city">
+            <label class="custom-form-margin" for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="Enter their city" required>
           </div>
           <div class="form-group">
-            <label for="homephone" style="margin-top: 30px; margin-bottom: 10px">Home phone</label>
-            <input type="text" class="form-control" id="homephone" placeholder="Enter a home phone number">
+            <label class="custom-form-margin" for="homephone">Home phone</label>
+            <input type="text" class="form-control" id="homephone" placeholder="Enter a home phone number" required>
           </div>
           <div class="form-group">
-            <label for="altphone" style="margin-top: 30px; margin-bottom: 10px">Age/grade</label>
-            <input type="text" class="form-control" id="altphone" placeholder="Enter an alternate phone number">
+            <label class="custom-form-margin" for="altphone">Age/grade</label>
+            <input type="text" class="form-control" id="altphone" placeholder="Enter an alternate phone number" required>
           </div>
           <div class="form-group">
-            <label for="email" style="margin-top: 30px; margin-bottom: 10px">Your email</label>
-            <input type="text" class="form-control" id="email" placeholder="Enter your email">
+            <label class="custom-form-margin" for="email">Your email</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter your email" required>
           </div>
           <div class="form-group">
-            <label for="emergencyname" style="margin-top: 30px; margin-bottom: 10px">Emergency contact name</label>
-            <input type="text" class="form-control" id="emergencyname" placeholder="Enter emergency contact name">
+            <label class="custom-form-margin" for="emergencyname">Emergency contact name</label>
+            <input type="text" class="form-control" id="emergencyname" placeholder="Enter emergency contact name" required>
           </div>
           <div class="form-group">
-            <label for="emergencyphone" style="margin-top: 30px; margin-bottom: 10px">Emergency contact phone number</label>
-            <input type="text" class="form-control" id="emergencyphone" placeholder="Enter emergency contact phone number">
+            <label class="custom-form-margin" for="emergencyphone">Emergency contact phone number</label>
+            <input type="text" class="form-control" id="emergencyphone" placeholder="Enter emergency contact phone number" required>
           </div>
           <div class="form-group">
-            <label for="healthconcerns" style="margin-top: 30px; margin-bottom: 10px">Known food allergies or other medical concerns</label>
+            <label class="custom-form-margin" for="healthconcerns">Known food allergies or other medical concerns</label>
             <textarea class="form-control" id="healthconcerns" rows="5" placeholder="Enter any food allergies or health concerns"></textarea>
           </div>
           <br>Do you have a church home?
           <div class="form-check">
             <label class="form-check-label" for="yes"></label>
-            <input class="form-check-input" type="radio" name="yes" id="yes">
+            <input class="form-check-input" type="radio" name="homeyesno" id="yes" required>
             yes
           </div>
           <div class="form-check">
             <label class="form-check-label" for="no"></label>
-            <input class="form-check-input" type="radio" name="no" id="no">
+            <input class="form-check-input" type="radio" name="homeyesno" id="no" required>
             no
           </div>
           <div class="form-group">
-            <label for="churchname" style="margin-top: 30px; margin-bottom: 10px">If yes, name</label>
+            <label class="custom-form-margin" for="churchname">If yes, name</label>
             <input type="text" class="form-control" id="churchname" placeholder="Enter church name">
           </div>
           <br>Is your child baptized?
           <div class="form-check">
             <label class="form-check-label" for="yes"></label>
-            <input class="form-check-input" type="radio" name="yes" id="yes">
+            <input class="form-check-input" type="radio" name="baptizedyesno" id="yes" required>
             yes
           </div>
           <div class="form-check">
             <label class="form-check-label" for="no"></label>
-            <input class="form-check-input" type="radio" name="no" id="no">
+            <input class="form-check-input" type="radio" name="baptizedyesno" id="no" required>
             no
-
+          </div>
+          <div class="form-check custom-form-margin">
+            <label class="form-check-label" for="medicalpermission"></label>
+            <input class="form-check-input" type="checkbox" id="medicalpermission" name="medicalpermission" required>
+            In case of emergency, I give my permission for any necessary medical treatment to be given to my child.
+            I will not hold The Rock or any leader/staff persons responsible for any injury that may occur.
+          </div>
+          <div class="form-check custom-form-margin">
+            <label class="form-check-label" for="mediapermission"></label>
+            <input class="form-check-input" type="checkbox" id="mediapermis sion" name="mediapermission" required>
+            I hereby give my permission for photos/video to be taken of my child during Stepping Stones to be used in or on the following:
+            local newspapers, church brochures, promotional materials, The Rock's website, The Rock's worship services.
+            It is understood that names of individual children may be present in various published items.
+          </div>
+          <button type="submit" class="btn btn-outline-primary" style="margin-top: 20px">Submit</button>
         </form>
 
 
