@@ -1,7 +1,7 @@
 Insert Google Maps into <contact.html>, reusing existing API key.
 
 Figure out where forms are being submitted to and add that to each form tag in each form page.
-    for: Stepping Stones, Faith Inkubators
+    for: Stepping Stones, Faith Inkubators, Comfort Dog
 
 Decide on just using Google Forms or site form and implement all registration as one type. Currently a mixture.
 
