@@ -8,7 +8,7 @@ function scrollToTop() {
   
   window.addEventListener('scroll', function() {
     var button = document.getElementById('back-to-top-button');
-    if (window.scrollY > this.visualViewport.height) { // Adjust the scroll threshold as needed
+    if (window.scrollY > 0.75*this.visualViewport.height) { // Adjust the scroll threshold as needed
       button.classList.remove('d-none');
     } 
     else {

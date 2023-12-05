@@ -1,8 +1,12 @@
 Insert Google Maps into <contact.html>, reusing existing API key.
+
 Figure out where forms are being submitted to and add that to each form tag in each form page.
     for: Stepping Stones, Faith Inkubators
+
+Decide on just using Google Forms or site form and implement all registration as one type. Currently a mixture.
 
 Add image to worship page.
 Add image to beliefs-and-history page.
 Add image to pastor-and-leaders page.
 Add image to children page.
+Add image to comfort dog page.
