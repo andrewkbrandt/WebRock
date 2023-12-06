@@ -10,3 +10,5 @@ Add image to beliefs-and-history page.
 Add image to pastor-and-leaders page.
 Add image to children page.
 Add image to comfort dog page.
+
+Resolve dead link to Hutton family blog on beyond borders page.

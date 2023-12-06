@@ -22,6 +22,13 @@ body {
     font-weight: lighter;
 }
 
+.custom-section-header-bold {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
 .custom-body-padding {
     padding-left: 20px;
     padding-right: 20px;
