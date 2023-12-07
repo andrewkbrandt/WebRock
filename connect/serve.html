@@ -6,7 +6,7 @@
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Make sure to edit each page's title to reflect that page. -->
-    <title>The Rock Lutheran Church - A mission church in Seward, Nebraska</title>
+    <title>Serve - The Rock Lutheran Church</title>
     <link href="/assets/font/bootstrap-icons.css" rel="stylesheet">
     <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="/css/custom/custom.css" rel="stylesheet">
@@ -82,6 +82,87 @@
 
       <!-- Place unique page content here -->
       <main class="custom-container">
+        <h1 class="custom-page-header">Serve</h1>
+        <br>
+        <p class="custom-body-padding">
+          God has blessed every individual with unique gifts, skills and talents. We&rsquo;d love to have you use your gifts in service at The Rock!
+          As a bonus, helping out at The Rock will also give you the opportunity to connect with some great people, find a sense of belonging
+          and experience the joy of being used by God!
+          <br> <br>
+          Please fill out the form below if you are interested in serving in one of the many ways listed.
+          <br> <br> 
+        </p>
+        <form class="custom-form-container">
+          <div class="form-group">
+            <label for="name" style="margin-bottom: 10px">First & last name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="phone">Phone</label>
+            <input type="text" class="form-control" id="phone" placeholder="Enter your phone number" required>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="email">Email</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+
+          <!-- div to group together checkbox options to one question -->
+          <p>
+            <br>
+            Which areas are you most interested in serving?
+          </p>
+          <div class="custom-body-padding">
+            <div class="form-group custom-form-margin-check">
+              <input type="checkbox" id="bridge" name="options[]">
+              <label for="bridge">Bridge (sound board, livestream, worship software)</label>
+            </div>
+            <div class="form-group custom-form-margin-check">
+              <input type="checkbox" id="cafe" name="options[]">
+              <label for="cafe">Cafe (baking, food prep, clean-up, etc.)</label>
+            </div>
+            <div class="form-group custom-form-margin-check">
+              <input type="checkbox" id="finances" name="options[]">
+              <label for="finances">Finances</label>
+            </div>
+            <div class="form-group custom-form-margin-check">
+              <input type="checkbox" id="greeter" name="options[]">
+              <label for="greeter">Greeter</label>
+            </div>
+            <div class="form-group custom-form-margin-check">
+              <input type="checkbox" id="marketing" name="options[]">
+              <label for="marketing">Marketing (graphic design, creative ideas, etc.)</label>
+            </div>
+            <div class="form-group custom-form-margin-check">
+              <input type="checkbox" id="media" name="options[]">
+              <label for="media">Media (video, photography, website, social networking)</label>
+            </div>
+            <div class="form-group custom-form-margin-check">
+              <input type="checkbox" id="music" name="options[]">
+              <label for="music">Music (instruments, vocals, sound board)</label>
+            </div>
+            <div class="form-group custom-form-margin-check">
+              <input type="checkbox" id="outreach" name="options[]">
+              <label for="outreach">Outreach</label>
+            </div>
+            <div class="form-group custom-form-margin-check">
+              <input type="checkbox" id="meals" name="options[]">
+              <label for="meals">Potlucks and meals (themes, setting up tables, clean-up, etc.)</label>
+            </div>
+            <div class="form-group custom-form-margin-check">
+              <input type="checkbox" id="smallgroups" name="options[]">
+              <label for="smallgroups">Small groups (Bible studies, fellowship opportunities, etc.)</label>
+            </div>
+            <div class="form-group" style="margin-top: 10px">
+              <input type="checkbox" id="youth" name="options[]">
+              <label for="youth">Youth (Faith Ink, Godparents)</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="custom-form-margin" for="comments">Comments/questions</label>
+            <textarea class="form-control" id="comments" rows="5" placeholder="Enter any questions or comments"></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline-primary" style="margin-top: 20px">Submit</button>
+        </form>
 
 
       <!-- Have button fade in and out -->

@@ -39,6 +39,11 @@ body {
     margin-bottom: 10px;
 }
 
+.custom-form-margin-check {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Flex allows for the viewport filling to work */
 .custom-container {
     flex: 1;
@@ -48,7 +53,7 @@ body {
 .custom-form-container {
     padding-left: 20px;
     padding-right: 20px;
-    max-width: 30rem;
+    max-width: 35rem;
 }
 
 /* Allows for darken transition when cursor is hovering over icon */
