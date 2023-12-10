@@ -1,5 +1,7 @@
 Insert Google Maps into <contact.html>, reusing existing API key.
 
+Design custom favicon image to put into the head of each page.
+
 Figure out where forms are being submitted to and add that to each form tag in each form page.
     for: Stepping Stones, Faith Inkubators, Comfort Dog
 
